@@ -1,9 +1,9 @@
 .container {
-    display: flex; /* Define o contêiner como Flexbox */
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    height: 100vh; /* Define a altura como 100% da tela */
-    background: #f5f5f5; /* Cor de fundo do contêiner */
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    background: #f5f5f5; 
   }
   
   .calculadora {
@@ -12,8 +12,8 @@
     border: 1px solid #ccc;
     border-radius: 12px;
     width: 260px;
-    background-color: #333; /* Cor de fundo da calculadora */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
+    background-color: #333; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   }
   
   .tela-calculadora {
@@ -26,13 +26,13 @@
     border: none;
     background-color: #fff;
     border-radius: 8px;
-    color: #333; /* Cor do texto */
+    color: #333;
   }
   
   .teclas-calculadora {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Define 4 colunas */
-    grid-gap: 10px; /* Espaçamento entre os botões */
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 10px;
   }
   
   .teclas-calculadora button {
@@ -40,25 +40,25 @@
     font-size: 20px;
     border: none;
     border-radius: 8px;
-    background-color: #444; /* Cor de fundo dos botões */
-    color: #fff; /* Cor do texto dos botões */
+    background-color: #444; 
+    color: #fff; 
     cursor: pointer;
     transition: background-color 0.3s, transform 0.1s;
   }
   
   .teclas-calculadora button:hover {
-    background-color: #555; /* Cor ao passar o mouse */
+    background-color: #555; 
   }
   
   .teclas-calculadora button:active {
-    transform: scale(0.95); /* Efeito de clique */
+    transform: scale(0.95);
   }
   
   .teclas-calculadora button.operator {
-    background-color: #f39c12; /* Cor diferente para operadores */
+    background-color: #f39c12; 
   }
   
   .teclas-calculadora button.operator:hover {
-    background-color: #e67e22; /* Cor ao passar o mouse para operadores */
+    background-color: #e67e22;
   }
   
