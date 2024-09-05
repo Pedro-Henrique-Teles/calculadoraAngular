@@ -1,0 +1,32 @@
+<div class="calculadora">
+  <input type="text" class="tela-calculadora" [value]="numeroAtual" disabled />
+
+  <div class="teclas-calculadora">
+    <button (click)="limpar()">C</button>
+    <button (click)="escolherOperacao('+')">+</button>
+    <button (click)="escolherOperacao('-')">-</button>
+    <button (click)="escolherOperacao('*')">x</button>
+    <button (click)="escolherOperacao('/')">÷</button>
+    <button (click)="adicionarDecimal()">.</button>
+    <button (click)="adicionarNumero('1')">1</button>
+    <button (click)="adicionarNumero('2')">2</button>
+  
+    <button (click)="adicionarNumero('3')">3</button>
+
+
+    <button (click)="adicionarNumero('4')">4</button>
+
+    <button (click)="adicionarNumero('5')">5</button>
+    <button (click)="adicionarNumero('6')">6</button>
+
+    <button (click)="adicionarNumero('7')">7</button>
+    <button (click)="adicionarNumero('8')">8</button>
+    <button (click)="adicionarNumero('9')">9</button>
+
+
+    <button (click)="adicionarNumero('0')">0</button>
+
+    <button (click)="calcular()">=</button>
+
+  </div>
+</div>
